@@ -1,8 +1,40 @@
-body {
+/* body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+} */
 
 a {
   color: #00B7FF;
+}
+
+#page {
+  /* background-image: url(/images/bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  height: 100%; */
+
+  background: url(/images/bg.jpg) no-repeat 50% 50% fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+#recipes {
+  padding-top: 100px;
+  color: white;
+
+}
+
+
+#login {
+  padding-top: 200px;
+  padding-left: 400px
+
 }
