@@ -15,5 +15,9 @@ router.get('/login', function(req, res, next) {
   res.render('login');
 });
 
+router.get('/explore', function(req, res, next) {
+  res.render('catalog');
+});
+
 
 module.exports = router;
